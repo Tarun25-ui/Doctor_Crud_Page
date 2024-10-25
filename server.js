@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 let doctors = [
-  { id: 0, fullName: "Parisa Tarun kumar", specilization: "Doctor", city: "Hyderabad" },
+  { id: 0, fullName: "Parisa Tarun kumar", specilization: "physio", city: "Hyderabad" },
   { id: 1, fullName: "PARISA VENKATA SAMBA SIVA RAO", specilization: "NEUROSURGEN", city: "DELHI" },
   { id: 2, fullName: "PALLAPATI SAIDULU", specilization: "CARDIO", city: "MUMBAI" }
 ];
